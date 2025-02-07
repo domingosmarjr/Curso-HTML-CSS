@@ -1,0 +1,60 @@
+@charset "UFT-8";
+
+
+body {
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(19, 65, 25), rgb(167, 226, 165));
+    border: 1px solid transparent;    
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 2.4em;
+    padding: 10px;
+    color: white;
+    /* border: 1px solid black; */
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+header > h2 {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+header > nav > ul {
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header > nav > ul > li {
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 2px;
+}
+
+main {
+    background-color: rgb(107, 170, 107);
+}
+
+section {
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
