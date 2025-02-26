@@ -12,6 +12,14 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            border: 1px solid black;
         }
 
         caption {
@@ -30,6 +38,15 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        /* 2n ou odd ou even */
+        tbody > tr:nth-child(odd) {
+            background-color: aquamarine;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color:cadetblue;
         }
 
         td.num {
@@ -84,6 +101,58 @@
                 <td>Rio Grande do Sul</td>
                 <td class="num">11.377.239</td>
             </tr>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+                </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class="num">11.377.239</td>
+        </tr>
+    </tr>
+    <tr>
+        <td>Bahia</td>
+        <td class="num">14.873.064</td>
+    </tr>
+    <tr>
+        <td>Paraná</td>
+        <td class="num">11.433.957</td>
+    </tr>
+    <tr>
+        <td>Rio Grande do Sul</td>
+        <td class="num">11.377.239</td>
+    </tr>
         </tbody>
         <tfoot>
             <tr>
