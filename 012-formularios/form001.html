@@ -14,7 +14,7 @@
     <h1>Meu primeiro formulário</h1>
 
     <!-- BASE DE FORMULÁRIO! -->
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" autocomplete="off" method="POST">
         <p><label for="nome">Nome:</label>
             <input type="text" name="nome" id="inome">
         </p>
@@ -26,6 +26,17 @@
         </p>
     </form>
 
+    <!-- MÉTODO -->
+    
+    <!-- method="GET"    coloca dados na URL-->
+    <!-- Usar quando os dados não forem sensíveis. -->
+    <!-- Até 3000bytes = 3000 letras -->
+    <!-- Fotos não funcionam e nem senhas! -->
+
+    <!-- method="POST"   coloca dados de outra forma -->
+    <!-- Usar dados sensíveis! Sem aparecer na URL. -->
+    <!-- Dados com + de 3k bytes, imagens e arquivos. -->
+    <!-- Proteger dados = protocolos HTTPS -->
 
 </body>
 </html>
