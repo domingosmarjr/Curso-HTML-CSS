@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Blox</title>
+    <style>
+        div.flexStart {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+        }
+
+        div.flexEnd {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+        }
+
+        div.center {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+
+        div.spaceBetween {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+
+        div.spaceEvenly {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+        }
+
+        div.spaceAround {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+        }
+
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>justify-content</h2>
+    
+    <h3>justify-content: flex-start</h3>
+    <div class="flexStart">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+    
+    <h3>justify-content: flex-end</h3>
+    <div class="flexEnd">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h3>justify-content: center</h3>
+    <div class="center">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h3>justify-content: space-between</h3>
+    <div class="spaceBetween">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h3>justify-content: space-evenly</h3>
+    <div class="spaceEvenly">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h3>justify-content: space-around</h3>
+    <div class="spaceAround">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+</body>
+</html>
