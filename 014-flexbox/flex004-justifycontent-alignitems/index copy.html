@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Blox</title>
+    <style>
+        div.conteiner1 {
+            background-color: lightcoral;
+            height: 100px;
+            padding: 5px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+
+            /* ALIGN ITEMS */
+            align-items: stretch;
+        }
+
+        div.conteiner2 {
+            background-color: lightcoral;
+            height: 100px;
+            padding: 5px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+
+            /* ALIGN ITEMS */
+            align-items: flex-start;
+        }
+
+        div.conteiner3 {
+            background-color: lightcoral;
+            height: 100px;
+            padding: 5px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+
+            /* ALIGN ITEMS */
+            align-items: flex-end;
+        }
+
+        div.conteiner4 {
+            background-color: lightcoral;
+            height: 100px;
+            padding: 5px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+
+            /* ALIGN ITEMS */
+            align-items: center;
+        }
+
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>align-items [cross-axis]</h1>
+    <h2>align-items: stretch</h2>
+    <div class="conteiner1">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h2>align-items: flex-start</h2>
+    <div class="conteiner2">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h2>align-items: flex-end</h2>
+    <div class="conteiner3">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+    <h2>align-items: center</h2>
+    <div class="conteiner4">
+        <div class="item">Exemplo A</div>
+        <div class="item">Exemplo B</div>
+        <div class="item">Exemplo C</div>
+        <div class="item">Exemplo D</div>
+        <div class="item">Exemplo E</div>
+        <div class="item">Exemplo F</div>
+        <div class="item">Exemplo G</div>
+    </div>
+
+</body>
+</html>
