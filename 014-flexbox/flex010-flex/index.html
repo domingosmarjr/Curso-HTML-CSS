@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Blox</title>
+    <style>
+        div.conteiner {
+            display: flex;
+            flex-flow: row nowrap;
+
+            background-color: lightcoral;
+        }
+
+        div.item {
+            /* flex-basis: 100px; */
+            /* flex-grow: 1; */
+            /* flex-shrink: 0; */
+            flex: 1 0 100px;
+
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">BBBB</div>
+        <div class="item">C</div>
+        <div class="item">DDDDDDDD</div>
+        <div class="item">E</div>
+        <div class="item">FFFFFFFFFFFF</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
